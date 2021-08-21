@@ -24,6 +24,7 @@ class CustomerConfig(models.FCOSConfig):
             name="traffic5",
             root="images",
             ann_file="annotations/val.json",
+            test_final_ann_file="annotations/test.json",
             remove_images_without_annotations=False,
         )
         self.num_classes = 5
