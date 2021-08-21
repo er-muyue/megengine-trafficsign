@@ -16,15 +16,15 @@ script目录提供了(frcn__demo, fcos_demo, atss_demo).sh脚本，当准备工�
 
 - 克隆仓库:
 
-  `git clone git@git-core.megvii-inc.com:liuyang10/trafficdet.git`
+  `https://github.com/er-muyue/megengine-trafficsign.git`
 
 - 安装依赖包(包含了megengine):
 
   `pip3 install --user -r requirements.txt`
 
 - 关于数据
-  - 本目录使用的是交通标志数据集，可以从这个位置下载：`s3://yangl-share/datasets/traffic5`，放到当前目录的data文件夹下
-  - annotations 选用 `s3://yangl-share/datasets/traffic5/annotations_train_val_test`
+  - 本目录使用的是交通标志数据集，megstudio环境启动之后默认已经包含数据即，（放到当前目录的data文件夹下，待定）
+  - annotations 选用 `...traffic5/annotations_train_val_test`
   ```
   /path/to/
       |->traffic
@@ -71,5 +71,4 @@ script目录提供了(frcn__demo, fcos_demo, atss_demo).sh脚本，当准备工�
   - (frcn__demo, fcos_demo, atss_demo).sh提供了一键运行脚本，默认用户已经申请了两块GPU
   
 - 参考链接
-  - 如遇问题，请参考 https://wiki.megvii-inc.com/pages/viewpage.action?pageId=248433046 进行修改
-  - 如有问题请在https://wiki.megvii-inc.com/pages/viewpage.action?pageId=287245976 中给予反馈
+  - 暂无
